@@ -20,7 +20,7 @@
 
 int main(int argc, char **argv){
     struct sockaddr_in server;
-    struct hostnet *h;
+    struct hostent *h;
     
     int sockfd;
     char *message = "Ola Servidor!!!";
